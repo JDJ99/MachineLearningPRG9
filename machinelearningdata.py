@@ -69,7 +69,6 @@ class Machine_Learning_Data():
 
 
 
-
 if __name__ == '__main__':
     data = Machine_Learning_Data("1234567")
 
