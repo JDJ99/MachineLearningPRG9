@@ -157,7 +157,7 @@ Z = Y_predict_lr_test
 #Z = Y_predict_dt_test
 
 
-Z = np.zeros(70) # dit is een gok dat alles 0 is... kan je zelf voorspellen hoeveel procent er goed is?
+Z = np.zeros(100) # dit is een gok dat alles 0 is... kan je zelf voorspellen hoeveel procent er goed is?
 
 # stuur je voorspelling naar de server om te kijken hoe goed je het gedaan hebt
 classification_test = data.classification_test(Z.tolist()) # tolist zorgt ervoor dat het numpy object uit de predict omgezet wordt naar een 'normale' lijst van 1'en en 0'en
